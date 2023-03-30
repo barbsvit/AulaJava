@@ -17,8 +17,9 @@ int - Um dado de tipo int é um inteiro (também de tipo primitivo) usado para a
 
 long - Um tipo de dado long possui a alta quantidade de armazenamento, para casos em que o tipo int não suporta a quantidade inserida. É possível declarar e inicializar uma variável Long atribuindo a ela um literal decimal, hexadecimal, octal ou binário. 
 
-boolean - Dados b0olean tratam de dados de verdadeiro ou falso, podendo-se atribuir a ele os valores de 0 e 1, ou on e off
-char -
+boolean - Dados boolean tratam de dados de verdadeiro ou falso, podendo-se atribuir a ele os valores de 0 e 1, ou on e off. Exemplo: Em uma checkbox é possível atribuir o valor true ou false para as condições a serem checadas. Casa a caixinha esteja preenchida será verdadeiro, caso não será falso. 
+
+char - Char é um dado do tipo caracter, usado para textos e sempre 
 float -
 double - 
 
