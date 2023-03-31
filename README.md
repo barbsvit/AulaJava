@@ -80,8 +80,55 @@ public class Exemplo {
             case 2:
                 System.out.println(“O mês é fevereiro”);
                 break;
+            default:
+                System.out.println(“Mês inválido”);
+                break;
             }
     }
 }            
 ```
 **Estrutura de repetição em Java**
+```
+Em linguagens de programação, loops são usados para executar uma sequencia de instruções / funções repetidamente quando algumas condições tornam-se true. Existem três tipos de loops em java. As principais estruturas de repetição na maioria das linguagens são o for e o while.
+```
+***For***
+```
+O for  é uma estrutura de repetição que executa uma instrução ou  um grupo de instruções zero ou mais vezes. O que muda entre as estruturas é a sintaxe, no caso do for a variável de controle, o valor inicial, o incremento e a condição de continuação do loop, são declarados como em uma espécie de cabeçalho, também chamado de cabeçalho da instrução for.
+```
+***While***
+```
+O while é uma estrutura de repetição, assim como o for a diferença entre eles é que no for temos a quantidade exata de quantas vezes o código será repetido, e o while usamos quando não sabemos quantas vezes o código será repetido para concluir a condição
+```
+***Do...While***
+```
+O Do...While é uma estrutura de repetição também, porém, ele é usado quando queremos repetir uma parte do código. Se o número de interações não é fixo, é recomendado usar o Do...While. 
+```
+Exemplos de sintaxe das estruturas de repetição:
+
+```
+For:
+for (<variável de controle>, <análise da variável de controle>, <incremento da variável de controle>) {
+    // Código a ser executado
+}
+
+While:
+while (<condição>) {
+    // Trecho de código a ser repetido
+}
+
+Do...While:
+do{  
+// código a ser executado  
+} while (verdadeiro); 
+```
+**Tipos de Elementos Visuais no Android Studio**
+
+• Views básicas:
+
+• Pickers Views: 
+
+• Views de listas: 
+
+• Views para imagens: 
+
+• Menus: 
