@@ -97,7 +97,7 @@ O for  é uma estrutura de repetição que executa uma instrução ou  um grupo 
 ```
 ***While***
 ```
-O while é uma estrutura de repetição, assim como o for a diferença entre eles é que no for temos a quantidade exata de quantas vezes o código será repetido, e o while usamos quando não sabemos quantas vezes o código será repetido para concluir a condição
+O while é uma estrutura de repetição, assim como o for. A diferença entre eles é que no for temos a quantidade exata de quantas vezes o código será repetido, e o while usamos quando não sabemos quantas vezes o código será repetido para concluir a condição
 ```
 ***Do...While***
 ```
