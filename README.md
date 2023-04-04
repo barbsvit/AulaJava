@@ -122,13 +122,27 @@ do{
 } while (verdadeiro); 
 ```
 **Tipos de Elementos Visuais no Android Studio**
+```
+Os tipos de elementos visuais tem haver principalmente com o que vai ser mostrado na interface do usuário, desde elementos do tipo texto até aqueles relacionados a ajuda, ou algo do tipo. Estes elementos são dividos em classes, sendo elas: 
+. Text
+. Buttons
+. Widgets
+. Containers
+. Helpers
+. Google
+. Legacy
+```
+***Principais tipos de cada classe***
+```
+Na classe text, os tipos principais são: TextView, AutoCompleteTextView, MultiAutoCompleteTextView e CheckedTextView.
+TextView: É um elemento da interface do usuário responsável pela exibição de textos
+AutoCompleteTextView: Uma exibição de texto editável que mostra sugestões de conclusão automaticamente enquanto o usuário está digitando. A lista de sugestões é exibida em um menu suspenso onde o usuário pode escolher um item para substituir o conteúdo da caixa de edição.
+MultiAutoCompleteTextView: Uma exibição de texto editável, estendendo AutoCompleteTextView, que pode mostrar sugestões de conclusão para a substring do texto em que o usuário está digitando, em vez de necessariamente para a coisa toda.
+CheckedTextView: Como seu próprio nome diz, a CheckedTextView é uma opção de checagem durante a visualização do texto e funciona como uma extenção. 
 
-• Views básicas:
-
-• Pickers Views: 
-
-• Views de listas: 
-
-• Views para imagens: 
-
-• Menus: 
+Na classe Buttons, os tipos principais são: Button, Chip, RadioButton e Switch.
+Button: O button é um elemento onde o usuário pode clicar para efetuar uma ação (como por exemplo, o botão de login de alguns sites de compras)
+Chip: O Chip é um tipo que representauma entrada, um atributo ou uma ação. Possuem uma anatomia contendo até dois rótulos de texto e um ícone opcional
+RadioButton: Um botão de rádio é um botão que possui dois estados e pode ser marcado ou desmarcado. Quando o botão de rádio está desmarcado, o usuário pode pressioná-lo ou clicar nele para marcá-lo. No entanto, ao contrário de uma CheckBox, por exemplo, um botão de opção não pode ser desmarcado pelo usuário depois de marcado.
+Switch: 
+```
