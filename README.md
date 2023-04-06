@@ -131,13 +131,13 @@ Buttons: Button(Em tradução literal é um botão onde ao clicar realiza uma a�
 
 Widgets: Cada um dos elementos da classe Widgets são diferentes entre si, possuindo apenas a semelhança na questão "View". Então é possível dizer que são elementos usados para questões diversas de importância do usuário. Ex: ImageView e VideoView. 
 
-Containers: RecyclerView(), Spinner(), FragmentContainerView(), ScrollView().
+Containers: RecyclerView(), Spinner(É um comando de exibição de uma atualização de aprimoramento por vez.), FragmentContainerView(FragmentContainerView é um Layout personalizado projetado especificamente para Fragments. Ele estende FrameLayout, para que possa lidar com transações de fragmento de forma confiável.), ScrollView(Exibição de rolagem, exibindo mais de um por vez ).
 
-Layout: ConstraintLayout(), LinearLayoutHorizontal(), FrameLayout().
+Layout: ConstraintLayout(É um comando que define a posição de uma visualização, e é necessário uma restrição horizontal e uma vertical), LinearLayoutHorizontal(É um grupo de visualizadores que define a orientação de todos os "filhos" que pode ser Vertical ou Horizontal), FrameLayout(Ele foi criado para Bloquear uma área da tela para mostrar um único item).
 
 Helpers: Group (), Barrier (), Guideline().
 
-Google: MapView (). 
+Google: MapView (é usado para mostrar uma localização). 
 
 Legacy: ListView().
 
