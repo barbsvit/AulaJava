@@ -131,13 +131,37 @@ Buttons: Button(Em tradução literal é um botão onde ao clicar realiza uma a�
 
 Widgets: Cada um dos elementos da classe Widgets são diferentes entre si, possuindo apenas a semelhança na questão "View". Então é possível dizer que são elementos usados para questões diversas de importância do usuário. Ex: ImageView e VideoView. 
 
-Containers: RecyclerView(), Spinner(É um comando de exibição de uma atualização de aprimoramento por vez.), FragmentContainerView(FragmentContainerView é um Layout personalizado projetado especificamente para Fragments. Ele estende FrameLayout, para que possa lidar com transações de fragmento de forma confiável.), ScrollView(Exibição de rolagem, exibindo mais de um por vez ).
+Containers: RecyclerView(O RecyclerView facilita a exibição eficiente de grandes conjuntos de dados. Você fornece os dados e define a aparência de cada item, e a biblioteca RecyclerView cria dinamicamente os elementos quando eles são necessários.Como o nome indica, RecyclerView recicla esses elementos individuais.), Spinner(É um comando de exibição de uma atualização de aprimoramento por vez.), FragmentContainerView(FragmentContainerView é um Layout personalizado projetado especificamente para Fragments. Ele estende FrameLayout, para que possa lidar com transações de fragmento de forma confiável.), ScrollView(Exibição de rolagem, exibindo mais de um por vez ).
 
 Layout: ConstraintLayout(É um comando que define a posição de uma visualização, e é necessário uma restrição horizontal e uma vertical), LinearLayoutHorizontal(É um grupo de visualizadores que define a orientação de todos os "filhos" que pode ser Vertical ou Horizontal), FrameLayout(Ele foi criado para Bloquear uma área da tela para mostrar um único item).
 
-Helpers: Group (), Barrier (), Guideline().
+Helpers: Group (Um grupo na tabela de slots. Representa uma chamada ou um nó emitido.), Barrier (Uma barreira faz referência a vários widgets como entrada e cria uma diretriz virtual com base no widget mais extremo no lado especificado.), Guideline(Linha de guia, como uma régua).
 
 Google: MapView (é usado para mostrar uma localização). 
 
-Legacy: ListView().
+Legacy: ListView(Exibe uma coleção de exibições com rolagem vertical, onde cada exibição é posicionada imediatamente abaixo da exibição anterior na lista).
+```
+
+**REFÊRENCIAS**
+https://developer.android.com/reference/kotlin/androidx/constraintlayout/core/widgets/Guideline?hl=en
+
+https://blog.grancursosonline.com.br/os-tipos-primitivos-da-linguagem-java/
+
+https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293
+
+https://www.javatpoint.com/pt/tipo-de-dado-em-java
+
+http://www.bosontreinamentos.com.br/java/tipos-de-dados-primitivos-em-java/
+
+https://www.dca.fee.unicamp.br/cursos/EA876/apostila/HTML/node10.html#:~:text=Estrutura%20de%20dados%20%C3%A9%20o,a%20informa%C3%A7%C3%A3o%20manipulada%20pelo%20programa.
+
+https://www.alura.com.br/artigos/estruturas-de-dados-introducao
+
+https://www.freecodecamp.org/portuguese/news/as-principais-estruturas-de-dados-que-voce-deve-conhecer-para-sua-proxima-entrevista-de-programacao/
+
+https://awari.com.br/estrutura-de-dados/?utm_source=blog
+
+https://intranet.ifs.ifsuldeminas.edu.br/michelle.nery/Java%20-%20Subsequente/Aula%2015%20-%20Estruturas%20de%20Repeti%C3%A7%C3%A3o/Aula%2015%20-%20Estruturas%20de%20Repeti%C3%A7%C3%A3o.pdf
+
+
 
