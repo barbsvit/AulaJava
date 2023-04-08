@@ -143,6 +143,7 @@ Legacy: ListView(Exibe uma coleção de exibições com rolagem vertical, onde c
 ```
 
 **REFÊRENCIAS**
+
 https://developer.android.com/reference/kotlin/androidx/constraintlayout/core/widgets/Guideline?hl=en
 
 https://blog.grancursosonline.com.br/os-tipos-primitivos-da-linguagem-java/
